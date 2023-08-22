@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Computadoras y laptops gamers.Empresa de tecnología ">
     <meta name="keywords" content="Ubícanos, hazañas, Misión, Visión, Objetivos" >
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -22,12 +23,12 @@
 
   <!--El encabezado-->
 
-  <header>
-      <div class="head shadow box-area">
-        <img class="logo d-flex rounded-4" src="../img/logo.png" alt="logo">
-        <h1 class="tittle text-white">Z_RAM</h1>
-        <p class="text text-light">Servicio, Calidad y Tecnologica. <br> Lo que tu setup lo necesita ;D</p>
-      </div>
+  <header class="header"> 
+    <div class="head">
+          <img class="logo d-flex rounded-4" src="../img/logo.png" alt="logo">
+          <h1 class="tittle text-white">Z_RAM</h1>
+          <p class="text text-white">Servicio, Calidad y Tecnologica. <br> Lo que tu setup lo necesita ;D</p>
+    </div>
   </header>
           
   <!--Enlaces -->
@@ -67,44 +68,52 @@
 
 <!-- Sobre Nosotros -->
 
-<div class="Contenedor-n">
-
+  <section class="Contenedor-n">
+    <h3 class="Tittle-nosotros text-decoration-underline p-2 fs-1 fw-bold font-monospace ">Más Sobre Nosotros</h3>
     <div class="nosotros">
-      
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62425.764181768536!2d-77.07605481147766!3d-12.070314652633073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ecd3b32ed1%3A0xa63ff86b9b214929!2sCircuito%20M%C3%A1gico%20del%20Agua!5e0!3m2!1ses-419!2spe!4v1691120766213!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo blanditiis quia ex tenetur perspiciatis aperiam at quidem iusto. Tenetur sed laboriosam assumenda consectetur explicabo dolores optio id consequuntur impedit non!</p>
-        <img src="../img/nosotros.jpg" alt="imagen corporativa">
-      
-    </div>
 
+      <div class="card-nosotros">
+        <img class="img-fluid rounded-4" src="../img/nosotros.jpg" alt="imagen corporativa">
+      </div>
+      
+    
+      <div class="card-nosotros">
+        <div class="row g-4">
+          <div class="col-5 col-sm-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62425.764181768536!2d-77.07605481147766!3d-12.070314652633073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ecd3b32ed1%3A0xa63ff86b9b214929!2sCircuito%20M%C3%A1gico%20del%20Agua!5e0!3m2!1ses-419!2spe!4v1691120766213!5m2!1ses-419!2spe" class="img-fluid w-100" alt="card-horizontal"></iframe>
+          </div>
+          <div class="col-7 col-sm-8">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <div class="metas">
- 
-  <div class="card">
-    <div class="card-header bg-transparent">Visión</div>
-    <div class="card-body">
-      <p class="card-text">Ser la empresa lider en la comercializacion de equipos de computo, ya que el cliente es lo mas importante de la empresa, por lo tanto debe tratarse de la mejor manera posible, ser en el futuro la empresa mas reconocida con las mejores marcas de computadoras.</p>
-    </div>
-  </div>
 
-  <div class="card">
-    <div class="card-header bg-transparent">Visión</div>
-    <div class="card-body">
-      <p class="card-text">Ofrecer un servicio de calidad a nuestros clientes de acuerdo a los requerimientos planeados. ser la empresa lider en la venta de computadoras portatiles y de escritorio con las mejores marcas del mercado , para lo cual trabajaremos con estandares de calidad bien ejecutados para que los clientes nos prefieran.</p>
+      <div class="card-metas">
+      <img class="iconos" src="../img/icono-vision.png" alt="icono visión">
+      <div class="metas-tittle">Visión</div>
+        <p class="metas-text">Ser la empresa lider en la comercializacion de equipos de computo, ya que el cliente es lo mas importante de la empresa, por lo tanto debe tratarse de la mejor manera posible, ser en el futuro la empresa mas reconocida con las mejores marcas de computadoras.</p>
+      </div>
+          
+      <div class="card-metas">
+      <img  class="iconos" src="../img/icono-mision.png" alt="icono misión">
+      <div class="metas-tittle">Misión</div>
+          <p class="metas-text">Ofrecer un servicio de calidad a nuestros clientes de acuerdo a los requerimientos planeados. ser la empresa lider en la venta de computadoras portatiles y de escritorio con las mejores marcas del mercado , para lo cual trabajaremos con estandares de calidad bien ejecutados para que los clientes nos prefieran.</p>
+        </div>
+          
+        <div class="card-metas">
+          <img class="iconos" src="../img/icono-objetivos.png" alt="icono objetivos">
+          <div class="metas-tittle">Objetivos</div>
+            <p class="metas-text">Brindar el mejor servicio en la venta de equipos de computo con los mejores precios del mercado computacional. Ser una empresa lider en la venta de equipos computacionales y brindar a nuestros clientres productos de la mejor calidad del mercado por que somos reconocidos hasta ahora como la mejor empresa en la venta de equipos de computo.</p>
+          </div>
+      
     </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header bg-transparent">Objetivos</div>
-    <div class="card-body">
-      <p class="card-text">Brindar el mejor servicio en la venta de equipos de computo con los mejores precios del mercado computacional. Ser una empresa lider en la venta de equipos computacionales y brindar a nuestros clientres productos de la mejor calidad del mercado por que somos reconocidos hasta ahora como la mejor empresa en la venta de equipos de computo.</p>
-    </div>
-  </div>
-
-    
-    </div>
-</div>
-
+  </section>
 
   <!-- Footer -->
 

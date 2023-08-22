@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Servicio de consultas y ayuda para nuestros consumidores">
     <meta name="keywords" content="Ayuda, consultas, servicios, orientación">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -22,12 +23,12 @@
 
   <!-- cabecera  --> 
 
-  <header>
-      <div class="head shadow box-area">
-            <img class="logo d-flex rounded-4" src="../img/logo.png" alt="logo">
-            <h1 class="tittle text-white">Z_RAM</h1>
-            <p class="text text-light">Servicio, Calidad y Tecnologica. <br> Lo que tu setup lo necesita ;D</p>
-      </div>
+  <header class="header"> 
+    <div class="head">
+          <img class="logo" src="../img/logo.png" alt="logo">
+          <h1 class="tittle text-white">Z_RAM</h1>
+          <p class="text text-white">Servicio, Calidad y Tecnologica. <br> Lo que tu setup lo necesita ;D</p>
+    </div>
   </header>
     
   <!-- Menu de navegación -->
@@ -69,24 +70,23 @@
 
   <section>
 
-  <form action="ayuda">
-
+  <form action="https://formspree.io/f/{form_id}" method="post">
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <div class="row border rounded-5 p-3 bg-white shadow box-area">
       <!-- caja izquierda -->
-      <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: url(../img/ayuda.jpg);">
+      <div class="col-md-12 col-lg-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: url(../img/ayuda.jpg); background-size: cover;">
         <div class="featured-image mb-3"> 
           <img src="../img/servicio.jpg" alt="registro"  class="img-fluid rounded-5" style="width: 300px; height: 190px;">
         </div>
-        <p class="text-white fs-1" style="font-family: monospace; font-weight: 600;">Servicio de ayuda</p>
+        <p class="text-white fs-1" style="font-family: monospace; font-weight: 550;">Centro de ayuda</p>
         <small class="text-white fs-6 text-wrap text-center" style="width: 17rem; font-family: monospace;">Dinos tus inquietudes, problemas y consultas a través de nuestro canal de ayuda.</small> 
       </div>
       <!-- caja derecha -->
-      <div class="col-md-6 right-box">
+      <div class="col-md-12 col-lg-6 right-box">
         <div class="row align-items-center">
           
-          <div class="header-text mb-4">
-            <h3>¡Comunicate con nosotros!</h3>  
+          <div class="header-text text-center mb-4">
+            <h2>¡Comunicate con nosotros!</h2>  
           </div>
 
             <div class="input-group mb-3">
@@ -113,7 +113,6 @@
     </div>
   </div>
 
-  </form>
 
   </section>   
 
